@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reaction Arena</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>⚡ Reaction Arena</h1>
+
+  <div class="info">
+    <p>Score: <span id="score">0</span></p>
+    <p>Time: <span id="time">30</span>s</p>
+    <p>Reaction: <span id="reaction">0</span> ms</p>
+  </div>
+
+  <button id="startBtn">Start Game</button>
+
+  <div id="gameArea">
+    <div id="target"></div>
+    <canvas id="particles"></canvas>
+  </div>
+
+  <h2>🏆 Leaderboard</h2>
+  <ol id="leaderboard"></ol>
+
+  <script src="script.js"></script>
+</body>
+</html>
